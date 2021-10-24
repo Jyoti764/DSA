@@ -236,7 +236,6 @@ int main() {
     scanf("%d", & a[i]);
   int key, i, j, r;
   int b[100000];
-  printf("Hello\n");
   printf("Enter choice:\n0. All Operations Completed\n1. Insert item at last\n2. Insert Item At First\n3. Insert Item At Index\n4. DeleteItemFromLast\n5. Delete Item from First\n6. DeleteItemFromIndex\n7. Find Item Unsorted\n8. Find Item Sorted\n9. Sort Array\n10. ExtractSubest\n11. DeleteSubset\n12. Split Into Two Array\n13. m. CloneArray\n14. ShiftLeftArray\n15. ShiftRightArray\n16. RotateArrayClockwise\n17. RotateArrayAntiClockwise\n18. FindMin\n19. FindMax\n20. FillArrayPseudoRandom\n21. FillArrayTrueRandom\n22. IncreaseArraySize\n23. SetArrayToZero\n24. DeleteAllItemOfArray\n25. DeleteArray\n26. AllocateArray\n27. PrintArray\n");
   int choice;
   do {
@@ -381,7 +380,7 @@ int main() {
       printArray(a, n);
       break;
     default:
-      printf("Error 404\nExit Code status X");
+      printf("Error 404\n");
     }
   } while (choice >= 1 && choice <= 27);
 }
